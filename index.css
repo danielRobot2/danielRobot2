@@ -1,0 +1,83 @@
+body{
+    margin:3;
+    padding:0;
+    background:papayawhip;
+    background-attachment:scroll;
+}
+div{
+    position:absolute;
+    top:50%;
+    left:30%;
+    transform:translate(-50%,-50%);
+}
+ img{
+    width:150px;
+    height:fit-content;
+    border-radius:7px 0px 0px 7px;
+ }
+div.container{
+    position:absolute;
+    top:112.5px;
+    left:224px;
+    background:white;
+    width:150px;
+    height:226px;
+    border-radius:0px 7px 7px 0px;
+}
+ .header{
+    position:absolute;
+    top:20px;
+    left:190px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:10px;
+    color:grey;
+    opacity:1;
+ }
+ div.header2{
+    position:absolute;
+    top:50px;
+    left:40px;
+    font-weight:bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:15px;
+    color:#000000;
+ }
+ div.paragraph{
+    position:absolute;
+    top:120px;
+    font-size:10px;
+    width:140px;
+    left:225px;
+    color:grey;
+    opacity:1;
+ }
+ .amount{
+    left:190px;
+    top:160px;
+    color:rgb(19, 102, 60);
+    font-weight:bold;
+ }
+ .cancle-amount{
+    left:90px;
+    text-decoration:line-through;
+    text-decoration-color:grey;
+    color:grey;
+ }
+ .cart_wri{
+    width:100px;
+    top:40px;
+    font-size:10px;
+    left:50px;
+    background-color:rgb(19, 102, 60);
+    color:white;
+    text-align:center;
+    height:18px;
+    border-radius:3px 3px 3px 3px;
+ }
+ .image_2{
+    width:15px;
+    height:15px;
+    position:absolute;
+    left:168px;
+    top:182px
+ }
